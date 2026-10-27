@@ -1,8 +1,8 @@
 <div align="center">
 
-# Ayush Kumar — Developer Portfolio
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0A0B0D,100:E0B25C&text=Ayush%20Kumar&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=Developer%20Portfolio&descAlignY=60&descSize=20" alt="Ayush Kumar - Developer Portfolio" width="100%" />
 
-**A fast, themeable React portfolio with a graphite look, live skill search, project showcase, certificate viewer and a built-in assistant chatbot.**
+**A fast, themeable React portfolio with a graphite look, live skill search, project showcase, certificate viewer, downloadable resume and a built-in assistant chatbot.**
 
 <p>
   <img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React 18" />
@@ -17,16 +17,14 @@
   <a href="mailto:vermaayush84300@gmail.com"><img src="https://img.shields.io/badge/Email-vermaayush84300%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
-<img src="docs/screenshots/hero.png" alt="Portfolio hero section" width="100%" />
-
 </div>
 
 ---
 
 ## Table of Contents
 
+- [About](#about)
 - [Highlights](#highlights)
-- [Screenshots](#screenshots)
 - [Tech Stack](#tech-stack)
 - [Featured Projects](#featured-projects)
 - [Themes](#themes)
@@ -35,6 +33,21 @@
 - [Customising the Portfolio](#customising-the-portfolio)
 - [Deployment](#deployment)
 - [Contact](#contact)
+
+---
+
+## About
+
+Hi, I'm **Ayush Kumar**, a B.Tech Computer Science and Engineering (AI and ML) student at ABES Engineering College, Ghaziabad (2025 - 2029), building responsive React web apps and practising DSA in C++.
+
+This repository is the source code of my personal portfolio.
+
+| | |
+| --- | --- |
+| **Education** | B.Tech CSE (AI and ML), ABES Engineering College, CGPA 9.2 / 10 |
+| **Focus** | React.js, responsive UI, REST APIs, DSA in C++ |
+| **Location** | Ghaziabad, Uttar Pradesh, India |
+| **Practice** | CodeChef, LeetCode, hackathons and quizzes |
 
 ---
 
@@ -51,28 +64,6 @@
 | **Portfolio assistant** | Floating chatbot that answers questions about projects, skills, resume and contact details. |
 | **Contact section** | Copy email to clipboard with toast feedback, plus GitHub and LinkedIn shortcuts. |
 | **Polish** | Scroll progress bar, back-to-top button, reveal-on-scroll animations, fully responsive layout. |
-
----
-
-## Screenshots
-
-### Skills
-
-<img src="docs/screenshots/skills.png" alt="Skills section" width="100%" />
-
-### Projects
-
-<img src="docs/screenshots/projects.png" alt="Projects section" width="100%" />
-
-### Certificates
-
-<img src="docs/screenshots/certificates.png" alt="Certificates section" width="100%" />
-
-### Mobile
-
-<div align="center">
-  <img src="docs/screenshots/mobile.png" alt="Mobile view" width="280" />
-</div>
 
 ---
 
@@ -112,6 +103,38 @@
 ---
 
 ## Featured Projects
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <a href="https://snazzy-entremet-031081.netlify.app/">
+        <img src="https://image.thum.io/get/width/600/crop/420/https://snazzy-entremet-031081.netlify.app/" alt="Krashi App preview" width="100%" />
+      </a>
+      <h3>Krashi App</h3>
+      <p>AgriTech web platform for farmers: crop suggestions, resource browsing and a mobile-first layout.</p>
+      <p><img src="https://skillicons.dev/icons?i=react,js,css" alt="Krashi stack" /></p>
+      <p><a href="https://snazzy-entremet-031081.netlify.app/"><b>Live demo</b></a></p>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://abtalks-redesign-9be6f9.netlify.app/">
+        <img src="https://image.thum.io/get/width/600/crop/420/https://abtalks-redesign-9be6f9.netlify.app/" alt="AbTalks Redesign preview" width="100%" />
+      </a>
+      <h3>AbTalks Redesign</h3>
+      <p>Complete redesign of the AbTalks build-in-public platform with a modern dark UI and smooth layouts.</p>
+      <p><img src="https://skillicons.dev/icons?i=react,tailwind,vite" alt="AbTalks stack" /></p>
+      <p><a href="https://abtalks-redesign-9be6f9.netlify.app/"><b>Live demo</b></a></p>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://smartflex-67cc24.netlify.app/">
+        <img src="https://image.thum.io/get/width/600/crop/420/https://smartflex-67cc24.netlify.app/" alt="SmartFlex preview" width="100%" />
+      </a>
+      <h3>SmartFlex</h3>
+      <p>Web platform for neighbourhood-level renewable energy sharing with a clear, readable dashboard.</p>
+      <p><img src="https://skillicons.dev/icons?i=react,js,tailwind,vite" alt="SmartFlex stack" /></p>
+      <p><a href="https://smartflex-67cc24.netlify.app/"><b>Live demo</b></a></p>
+    </td>
+  </tr>
+</table>
 
 | Project | Type | Stack | Live demo |
 | --- | --- | --- | --- |
@@ -170,7 +193,6 @@ portfolio-project/
 ├── src/
 │   ├── App.jsx             # All sections, data, chatbot and styles
 │   └── main.jsx            # React entry point
-├── docs/screenshots/       # Images used in this README
 ├── index.html
 ├── vite.config.js
 └── package.json
@@ -214,10 +236,12 @@ All content lives in `src/App.jsx`.
   <a href="https://www.linkedin.com/in/ayush-kumar-15a04a401/"><img src="https://skillicons.dev/icons?i=linkedin" height="36" alt="LinkedIn" /></a>
 </p>
 
-Ghaziabad, Uttar Pradesh, India · B.Tech CSE (AI and ML), ABES Engineering College · 2025 – 2029
+Ghaziabad, Uttar Pradesh, India
 
 <div align="center">
 
 If you like this portfolio, consider giving the repo a star.
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:E0B25C,100:0A0B0D&section=footer" width="100%" alt="" />
 
 </div>
